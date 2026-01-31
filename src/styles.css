@@ -803,9 +803,19 @@ main {
 
   margin: -20px -20px 0px;
 
-  color:black;
+  color: white;
 
-  background-color: var(--ruby-red);
+ 
+
+  background-image: conic-gradient(
+    from 183deg at top left,
+
+    #d4d0d0 0%,
+
+    #201315 29%,
+
+    #d4d0d0 100%
+  );
 }
 
 .service-box .img-container-service {
