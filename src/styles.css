@@ -1,6 +1,7 @@
 html {
   overscroll-behavior: none;
   overflow-x: hidden;
+  font-family: "Pacifico", Arial, Helvetica, sans-serif;
 }
 
 html:has(body.blurred) {
@@ -12,7 +13,7 @@ html:has(body.blurred) {
 
   --transparent-black: #02020270;
 
-  --ruby-red: #6c30ef;
+  --ruby-red: #a49080;
 
   --gold: #d2b568;
 
@@ -265,7 +266,7 @@ body .hidden-nav-links {
 
   color: white;
 
-  font-family: "barlow condensed", Arial, Helvetica, sans-serif;
+  font-family: "Pacifico", Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -277,7 +278,7 @@ nav {
 
   display: flex;
 
-  justify-content: space-between;
+  justify-content: right;
 
   transition: all 200ms ease-in-out;
 }
@@ -293,7 +294,7 @@ nav.deploy-mobile-nav {
 nav ul {
   width: 100%;
 
-  max-width: 750px;
+  max-width: 100%;
 
   margin: 0px;
 
@@ -307,8 +308,7 @@ nav ul {
 }
 
 nav li {
-  font-family: "barlow condensed", Arial, Helvetica, sans-serif;
-
+  font-family: "Pacifico", Arial, Helvetica, sans-serif;
   color: var(--white);
 
   display: grid;
@@ -453,8 +453,7 @@ a {
 }
 
 .mobile-nav ul {
-  font-family: "Barlow Condensed", Arial, Helvetica, sans-serif;
-
+  font-family: "Pacifico", Arial, Helvetica, sans-serif;
   text-align: center;
 
   margin: auto auto;
@@ -519,7 +518,7 @@ header {
 
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
-    url(../media/candle-1.jpg);
+    url(../media/large\ photo\ .png);
 
   margin-bottom: 40vh;
 
@@ -581,13 +580,15 @@ h1 {
 }
 
 h1 .hero {
-  font-size: 70px;
+  font-size: 40px;
 
-  letter-spacing: 10px;
+  letter-spacing: 1px;
 
-  font-weight: 500;
+  font-weight: 40;
 
-  font-family: "Barlow Condensed", Arial, Helvetica, sans-serif;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
 }
 
 .header-container {
@@ -671,20 +672,20 @@ h1 .hero {
 .branding {
   font-size: 25px;
 
-  color: var(--white);
+  color: #484848;
 
   text-transform: uppercase;
 
   font-weight: 600;
 
-  font-family: "Barlow Condensed", Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .branding .web {
 }
 
 .branding .cristal {
-  color: var(--ruby-red);
+  color: #484848;
 }
 
 hr {
@@ -726,15 +727,19 @@ hr.gold {
 }
 
 main {
-  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subtitle {
+  font-family: "Great Vibes";
 }
 
 .service {
   padding: 0px 40px;
-
   height: 100%;
-
   position: relative;
+  font-family: "Great Vibes";
 }
 
 .service-box-container {
@@ -793,7 +798,7 @@ main {
 }
 
 .service-box h5 {
-  font-size: 20px;
+  font-size: 30px;
 
   text-align: center;
 
@@ -804,8 +809,6 @@ main {
   margin: -20px -20px 0px;
 
   color: white;
-
- 
 
   background-image: conic-gradient(
     from 183deg at top left,
@@ -827,8 +830,6 @@ main {
 
   padding: 20px;
 
-  
-
   margin: -20px -20px;
 
   background-size: cover;
@@ -839,20 +840,32 @@ main {
 }
 
 .service-box:nth-child(1) .img-container-service {
- background-image:url(../media/best\ whyte\ simple\ candle\ in\ a\ glass\ with\ lid.jpg);
+  background-image: url(../media/green\ and\ white\ round.jpg);
 }
 
-.service-box:nth-child(2) .img-container-service{
-   background-image:url(../media/heart\ \ pink\ melts.jpg);
+.service-box:nth-child(2) .img-container-service {
+  background-image: url(../media/superb\ candle.jpg);
 }
 
-.service-box:nth-child(3) .img-container-service{
-   background-image:url(../media/WD\ whyte\ stylish\ hearts\ with\ beige\ flowers.jpg);
-  
+.service-box:nth-child(3) .img-container-service {
+  background-image: url(../media/boho\ melts.jpg);
+}
+
+.service-box:nth-child(4) .img-container-service {
+  background-image: url(../media/bears.jpg);
+}
+
+.service-box:nth-child(5) .img-container-service {
+  background-image: url(../media/green\ egg.jpg);
+}
+
+.service-box:nth-child(6) .img-container-service {
+  background-image: url(../media/lego\ 5.png);
 }
 
 .service-box p {
   color: rgb(106, 106, 106);
+  font-size: 25px;
 }
 
 .effect-button-container {
@@ -870,7 +883,7 @@ main {
 
   background-color: var(--ruby-red);
 
-  padding: 10px 20px;
+  padding: 10px 10px;
 
   font-size: 25px;
 
@@ -880,11 +893,11 @@ main {
 
   font-weight: 500;
 
-  width: 100px;
+  width: 300px;
 
-  height: 30px;
+  height: 50px;
 
-  font-family: "barlow condensed", Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 
   position: relative;
 
@@ -894,7 +907,7 @@ main {
 }
 
 .effect-button-container a:hover {
-  width: 110px;
+  width: 300px;
 }
 
 .effect-button-container a:hover .eb-text {
@@ -916,13 +929,16 @@ main {
 .effect-button-container .eb-text {
   position: absolute;
 
-  left: 50%;
+  left: 40%;
 
   top: 50%;
 
   transform: translate(-50%, -50%);
 
   transition: all 200ms ease-in-out;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .effect-button-container .eb-icon {
@@ -940,13 +956,12 @@ main {
 }
 
 h3 {
-  font-family: "barlow condensed", Arial, Helvetica, sans-serif;
+  font-family: "Great Vibes";
+  color: #484848;
 
   font-size: 50px;
 
-  text-transform: uppercase;
-
-  font-weight: 600;
+  font-weight: 100;
 
   position: relative;
 
@@ -978,9 +993,11 @@ h4 {
 
   font-weight: 400;
 
-  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Great Vibes";
 
-  font-size: 20px;
+  color: #484848;
+
+  font-size: 30px;
 }
 
 section.projects {
@@ -988,10 +1005,10 @@ section.projects {
 
   width: 100vw;
 
-  height: 200vh;
+  min-height: 20vh;
 
-  margin: 400px 0px 0px;
-
+  margin: 200px 0px 0px;
+  padding-top: 100px;
   position: relative;
 
   display: grid;
@@ -1008,7 +1025,7 @@ section.projects .projects-banner {
 
   transform: translateX(-50%);
 
-  top: -150px;
+  top: -20%;
 
   z-index: 2;
 
@@ -1028,25 +1045,24 @@ section.projects .projects-banner {
 }
 
 section.projects .projects-banner h2 {
-  font-size: 50px;
+  font-size: 30px;
 
   text-transform: uppercase;
 
   letter-spacing: 10px;
 
-  font-weight: 500;
+  font-weight: 100;
 
-  color: var(--white);
+  color: #5f5e5e;
 
-  font-family: "barlow condensed", Arial, Helvetica, sans-serif;
+  font-family: "Great Vibes";
 }
 
 section.projects .projects-banner h2 .emphasis {
   letter-spacing: normal;
-
+  font-size: 15px;
   font-weight: 700;
-
-  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 
   color: var(--ruby-red);
 }
@@ -1308,11 +1324,11 @@ section.projects a.your-site-container:hover i {
 }
 
 section.price {
-  min-height: 100vh;
+  min-height: 10vh;
 
   padding: 0px 100px 50vh;
 
-  background-color: var(--heavy-black);
+  background-color: #baafa6;
 
   color: var(--minor-gray);
 }
@@ -1338,7 +1354,7 @@ section.price h4 {
 
   padding: 70px 120px;
 
-  margin: 150px 0px 100px;
+  margin: 10px 0px 10px;
 
   grid-template-columns: 30% 70%;
 
@@ -1371,6 +1387,16 @@ section.price h4 {
   box-shadow: 0px 0px 5px 5px var(--ruby-red);
 
   filter: brightness(1.2) saturate(1.2);
+}
+
+.lowerpage {
+  width: 150px;
+  height: 150px;
+}
+
+.lowerpage1 {
+  width: 200px;
+  height: 90px;
 }
 
 .price-item .price-icon-container {
@@ -1533,7 +1559,7 @@ section.contact {
   }
 
   body .codument .projects-banner .emphasis {
-    font-size: 25px;
+    font-size: 10px;
   }
 
   .projects-banner hr {
@@ -1662,6 +1688,6 @@ section.contact {
   }
 
   section.price {
-    padding: 0px 50px;
+    padding: 0px 10px;
   }
 }
