@@ -1335,6 +1335,7 @@ section.price {
 
 section.price h3 {
   color: var(--white);
+  padding-top :40px;
 }
 
 section.price h3::after {
@@ -1352,7 +1353,7 @@ section.price h4 {
 
   border-radius: 10px;
 
-  padding: 70px 120px;
+  padding: 70px 50px;
 
   margin: 10px 0px 10px;
 
@@ -1404,7 +1405,7 @@ section.price h4 {
 }
 
 .price i {
-  font-size: 10vh;
+  font-size: 20vh;
 }
 
 .price-info {
@@ -1413,6 +1414,10 @@ section.price h4 {
   flex-direction: column;
 
   justify-content: space-evenly;
+
+  font-size: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 section.contact {
@@ -1438,25 +1443,7 @@ section.contact {
 }
 
 @media (min-width: 500px) {
-  .service-box-container::after {
-    content: "";
 
-    width: 70%;
-
-    left: 50%;
-
-    top: 50%;
-
-    z-index: 1;
-
-    transform: translateX(-50%) translateY(-50%);
-
-    position: absolute;
-
-    height: 10px;
-
-    background-color: var(--heavy-black);
-  }
 }
 
 @media (max-width: 700px) {
@@ -1470,25 +1457,7 @@ section.contact {
     margin: 30px 50px;
   }
 
-  .service-box-container::after {
-    z-index: 1;
 
-    width: 4px;
-
-    content: "";
-
-    position: absolute;
-
-    height: calc(100% - 100px);
-
-    background-color: black;
-
-    transform: translate(-50%, -50%);
-
-    top: 50%;
-
-    left: 50%;
-  }
 }
 
 @media (max-width: 700px) {
@@ -1596,25 +1565,7 @@ section.contact {
     margin: 10px 0px;
   }
 
-  .service-box-container::after {
-    z-index: 1;
 
-    width: 2px;
-
-    content: "";
-
-    position: absolute;
-
-    height: calc(100% - 100px);
-
-    background-color: black;
-
-    transform: translate(-50%, -50%);
-
-    top: 50%;
-
-    left: 50%;
-  }
 
   .codument .service-box {
     height: auto;
