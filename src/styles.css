@@ -506,7 +506,7 @@ header {
 
   background-attachment: 50%;
 
-  width: 100vw;
+  width: 120vw;
 
   position: relative;
 
@@ -517,8 +517,9 @@ header {
   background-position: center;
 
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
-    url(../media/large\ photo\ .png);
+   
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),
+    url(../media/background3.png) ;
 
   margin-bottom: 40vh;
 
@@ -753,7 +754,7 @@ main {
 
   height: 100%;
 
-  margin: 100px;
+  margin: 100px 100px 50px;
 }
 
 .service-box {
@@ -844,11 +845,11 @@ main {
 }
 
 .service-box:nth-child(2) .img-container-service {
-  background-image: url(../media/superb\ candle.jpg);
+  background-image: url(../media/boho\ melts.jpg);
 }
 
 .service-box:nth-child(3) .img-container-service {
-  background-image: url(../media/boho\ melts.jpg);
+  background-image: url(../media/superb\ candle.jpg);
 }
 
 .service-box:nth-child(4) .img-container-service {
@@ -884,6 +885,8 @@ main {
   background-color: var(--ruby-red);
 
   padding: 10px 10px;
+
+
 
   font-size: 25px;
 
@@ -1007,7 +1010,7 @@ section.projects {
 
   min-height: 20vh;
 
-  margin: 200px 0px 0px;
+  margin: 100px 0px 0px;
   padding-top: 100px;
   position: relative;
 
@@ -1326,11 +1329,14 @@ section.projects a.your-site-container:hover i {
 section.price {
   min-height: 10vh;
 
-  padding: 0px 100px 50vh;
+  padding: 20px 100px 50vh;
 
   background-color: #baafa6;
 
   color: var(--minor-gray);
+
+  margin-bottom:-250px;
+  margin-top: 50px;
 }
 
 section.price h3 {
