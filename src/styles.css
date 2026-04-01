@@ -504,22 +504,17 @@ header {
 
   height: 100vh;
 
-  background-attachment: 50%;
-
-  width: 120vw;
-
   position: relative;
-
-  background-size: 100%;
+  max-width: 100vw;
+  background-size: cover;
 
   background-repeat: no-repeat;
 
   background-position: center;
 
   background-image:
-   
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),
-    url(../media/background3.png) ;
+    url(../media/background3.png);
 
   margin-bottom: 40vh;
 
@@ -609,7 +604,7 @@ h1 .hero {
 
   left: 50%;
 
-  transform: translate(-50%, 0%);
+  transform: translateX(-50%);
 
   background-color: transparent;
 
@@ -861,7 +856,7 @@ main {
 }
 
 .service-box:nth-child(6) .img-container-service {
-  background-image: url(../media/many\ legos.png) ;
+  background-image: url(../media/many\ legos.png);
 }
 
 .service-box p {
@@ -885,8 +880,6 @@ main {
   background-color: var(--ruby-red);
 
   padding: 10px 10px;
-
-
 
   font-size: 25px;
 
@@ -1335,13 +1328,13 @@ section.price {
 
   color: var(--minor-gray);
 
-  margin-bottom:-250px;
+  margin-bottom: -250px;
   margin-top: 50px;
 }
 
 section.price h3 {
   color: var(--white);
-  padding-top :40px;
+  padding-top: 40px;
 }
 
 section.price h3::after {
@@ -1449,7 +1442,6 @@ section.contact {
 }
 
 @media (min-width: 500px) {
-
 }
 
 @media (max-width: 700px) {
@@ -1462,8 +1454,6 @@ section.contact {
 
     margin: 30px 50px;
   }
-
-
 }
 
 @media (max-width: 700px) {
@@ -1570,8 +1560,6 @@ section.contact {
 
     margin: 10px 0px;
   }
-
-
 
   .codument .service-box {
     height: auto;
