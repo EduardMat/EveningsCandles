@@ -1599,6 +1599,14 @@ section.contact {
   section.projects .device-container {
     background-image: none;
   }
+ 
+ .img-container-service {
+    height:100px;
+    width: 100px;
+  }
+
+  
+
 
   section.projects .device-mobile-container {
     height: 30vh;
