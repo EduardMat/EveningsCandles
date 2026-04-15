@@ -288,7 +288,7 @@ nav {
 }
 
 nav.deploy-mobile-nav {
-  height: auto;
+  height:max-content;
 }
 
 nav ul {
@@ -404,14 +404,18 @@ nav li.hamburger {
 
 button {
   -webkit-tap-highlight-color: transparent;
-
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  
 }
 
 a {
   -webkit-tap-highlight-color: transparent;
-
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+
+
+
 }
 
 .hidden-nav-links {
@@ -783,6 +787,10 @@ main {
   transition: all 200ms ease-in-out;
 
   z-index: 2;
+}
+
+.card-footer button {
+border: none;
 }
 
 .service-box:hover {
