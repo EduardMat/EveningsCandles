@@ -2,10 +2,19 @@
   font-size: 20px;
   font-family: sans-serif;
   
-   
 }
 
- 
+ .h-100{
+  border: 5px solid  rgb(175, 173, 173);
+  border-radius: 8px;
+  background-color: #D4D0CF;
+  transition: all 100ms ease-in-out;
+  
+ }
+
+ .h-100:hover{
+transform: scale(1.05);
+ }
 
 
 .boxes {
@@ -13,11 +22,12 @@
   grid-template-columns: 2fr 2fr 2fr;
   grid-row-gap: 30px;
   grid-column-gap: 20px;
+  
  
 }
 
 .h4additional{
-  padding:40px;
+  padding:1px;
 
 }
 /*this is cards styling    
@@ -50,13 +60,14 @@ ul {
   list-style: none;
   padding: 30px;
   
+  
 }
 
 a {
   color: white;
   text-decoration-line: none;
-  transition: all 200ms ease-in-out;;
- 
+  transition: all 200ms ease-in-out;
+  
 }
 
 a.order {
@@ -73,7 +84,8 @@ a.order {
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
   border-radius: 8px;
-  box-shadow:0 4px 8px 0 rgba(0,0,0,0.6)
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.6);
+  
 
   }
 
