@@ -1,367 +1,491 @@
 <!doctype html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>EveningsCandles</title>
-
+    <title>Candles | EveningCandle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Pacifico&family=Playwrite+AU+TAS:wght@100..400&family=Satisfy&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
-  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
-</svg>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Pacifico&family=Playwrite+AU+TAS:wght@100..400&family=Satisfy&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="src/styles.css" />
     <link rel="stylesheet" href="src/style.css" />
-
-    <script
-      src="https://kit.fontawesome.com/8004545972.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
+  <body class="secondary candle-page">
+    <nav>
+      <a href="index.html" class="home-button"
+        ><i class="fa-solid fa-house"></i
+      ></a>
 
-  <body>
-    <div class="mobile-nav">
-      <ul>
-        <li><a  target="_parent" href="flowers.html">FLOWERS ARRANGEMENTS</a></li>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+        rel="stylesheet"
+      />
 
-        <li><a  target="_parent" href="candles.html">CANDLES</a></li>
-
-        <li><a target="_parent" href="waxmelts.html">WAX MELTS</a></li>
-
-        <li><a target="_parent" href="waxmelts.html"> ODORIZANTS</a></li>
-
-        <li><a target="_parent"  href="baby.html">BABY SHOWERS</a></li>
-
-        <li><a target="_parent" href="homedecor.html">HOME DECOR</a></li>
-
-        <li>
-          <a  target="_parent" href="kids.html">KIDS COLORING ITEMS</a>
-        </li>
-
-        <li><a target="_parent"  href="index.html">HOME</a></li>
-      </ul>
-    </div>
-
-    <div class="loading-screen display-none">
-      <div class="img-container"></div>
-    </div>
-
-    <div class="nav-master-container blocked">
-      <nav class="">
-        <ul>
-          <li>
-            <a  target="_parent"  href="flowers.html">FLOWERS ARRANGEMENTS</a>
-          </li>
-
-          <li>
-            <a  target="_parent"  href="candles.html">CANDLES</a>
-          </li>
-
-          <li>
-            <a  target="_parent"  href="waxmelts.html">WAX MELTS</a>
-          </li>
-
-          <li>
-            <a target="_parent"  href="waxmelts.html">ODORIZANTS</a>
-          </li>
-
-          <li>
-            <a target="_parent"  href="baby.html">BABY SHOWERS</a>
-          </li>
-
-          <li>
-            <a target="_parent"  href="homedecor.html">HOME DECOR</a>
-          </li>
-
-          <li>
-            <a  target="_parent"  href="kids.html">KIDS ITEMS</a>
-          </li>
-
-          <li>
-            <a  target="_parent" href="contact.html">CONTACT</a>
-          </li>
-
-          <li class="contact">
-            <a  target="_parent" href="index.html">HOME</a>
-          </li>
-
-          <li class="hamburger">
-            <a id="hamburger"><i class="fa-solid fa-bars"></i></a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="hidden-nav-links">
-        <ul>
-          <li><a  target="_parent" href="flowers.html">FLOWERS ARRANGEMENTS</a></li>
-
-          <li><a target="_parent"  href="candles.html">CANDLES</a></li>
-
-          <li><a target="_parent"   href="waxmelts.html">WAX MELTS </a></li>
-
-          <li><a target="_parent"  href="waxmelts.html">ODORIZANTS</a></li>
-
-          <li><a target="_parent"  href="baby.html">BABY SHOWERS</a></li>
-
-          <li><a target="_parent" href="homedecor.html">HOME DECOR </a></li>
-
-          <li><a target="_parent" href="kids.html">KIDS ITEMS</a></li>
-
-          <li><a  target="_parent" href="index.html">HOME</a></li>
-        </ul>
+      <div class="main-link-container">
+        <a href="candles.html" class="selected">Candles</a>
+        <a href="minicandles.html">Minicandles</a>
+        <a href="luxury-gifts.html">Luxury Gifts</a>
+        <a href="home-decor.html">Home Decor</a>
+        <a href="wedding-items.html">Wedding</a>
+        <a href="kids.html">Kids Items</a>
+        <a class="special" href="index.html">Home</a>
       </div>
-    </div>
-
-    <div class="codument">
+    </nav>
+    <a href="index.html" class="mobile-home">
+      <i class="fa-solid fa-house"></i>
+    </a>
+    <section class="top-section">
       <header>
-        <div class="header-container">
-          <h1>
-            <span class="hero">Evenings</span> <br />
-
-            <span class="gold-text">CANDLES</span>
-          </h1>
-
-          <div class="header-bottom-container">
-            <div class="header-bottom-inner-container">
-              <h2 class="branding">
-                <span class="cristal">LUXURY</span
-                ><span class="web"> CANDLES</span>
-              </h2>
-            </div>
+        <div class="hero-tag">
+          <div class="upper">
+            <h2>
+              Quality
+              <div class="secondary">Wax Products</div>
+            </h2>
           </div>
+
+          <div class="lower"><h1>Candles Collection</h1></div>
         </div>
       </header>
+    </section>
+    <main>
+      <h3 class="products">Products</h3>
+      <p>
+        Our handcrafted soy wax candles are made to create moments of comfort
+        and beauty. Poured by hand using natural soy wax, each candle comes in a
+        carefully chosen container—from modern ceramic vessels in a variety of
+        elegant shapes to classic glass jars that suit every décor. Designed for
+        a clean burn and lasting fragrance, they're perfect for adding warmth,
+        character, and a touch of everyday luxury to your home.
+      </p>
 
-      <main>
-        <section class="service">
-          <h3 class="subtitle" id="service-anchor">
-            An fairy story.Flowers which do not die.
-          </h3>
-
-          <h4>
-          Have a look at the flowers which we can prepare for you. 
-          The colour pallete and the containers can be personalized.
-          </h4>
-
-          <div class="service-box-container">
-            <div class="service-box">
-              <div class="img-container-service"></div>
-
-              <h5>  <a  target="_parent"  href="flowers.html"> Flower arrangements </a></h5>
-
-              <p>
-               Elegant, handcrafted soy wax flower arrangements that look like real blooms and fill your space 
-               with long-lasting fragrance. Eco-friendly, beautiful, 
-               and made to never fade—perfect for gifting or treating yourself.
-              </p>
-            </div>
-
-            <div class="service-box">
-              <div class="img-container-service"></div>
-
-           
-              <h5> <a  target="_parent"   href="waxmelts.html"> Wax melts <br/>Odorizants </a></h5>
-              
-              <p>
-            Fill your home with beautiful, long-lasting fragrance using our scented soy wax melts—available in charming shapes like hearts and 
-            flowers or classic melt cubes.
-             Made from non-toxic, eco-friendly soy wax, they’re a safe and stylish way to enjoy your favorite scents without compromise.
-              </p>
-            </div>
-
-            <div class="service-box">
-              <div class="img-container-service"></div>
-
-          
-              <h5> <a  target="_parent" href="candles.html"> Candles </a></h5>
-
-              <p>
-              Elevate your space with our scented soy candles, beautifully poured into elegant glass or ceramic containers. 
-              From minimalist designs to stunning pieces adorned with delicate flowers, 
-               candle offers a clean, long-lasting fragrance and a touch of effortless luxury—perfect for cozy moments or thoughtful gifts.
-              </p>
-            </div>
-
-            <div class="service-box">
-              <div class="img-container-service"></div>
-
-              <h5> <a  target="_parent"   href="baby.html"> Baby Showers </a></h5>
-
-              <p>
-              Adorable scented soy wax figurines—featuring sweet bears, lions, and giraffes—perfect for baby showers and special celebrations. 
-              Made from non-toxic, eco-friendly soy 
-              wax and customizable for a personal touch, they’re a charming, safe, and memorable favor your guests will love.
-              </p>
-            </div>
-
-            <div class="service-box">
-              <div class="img-container-service"></div>
-
-              <h5><a target="_parent"  href="homedecor.html"> Home Decor </a></h5>
-
-              <p>
-              Add a touch of sophistication to your home with our unique, handcrafted décor pieces made from ceramic powder.
-               From elegant candle trays to chic
-               jewelry containers and decorative vases, each item is stylish, distinctive, and designed to stand out beautifully in any space.
-              </p>
-            </div>
-
-            <div class="service-box">
-              <div class="img-container-service"></div>
-
-              <h5>  <a  target="_parent" href="kids.html"> Kids Items </a></h5>
-
-              <p>
-          
-Spark creativity and fun with our coloring gypsum figurines—featuring princesses, building bricks, and playful robots. 
-Perfect for creative kids, or as a unique party activity, these charming pieces turn imagination into hands-on joy.
-              </p>
-            </div>
-          </div>
+      <!--HERE STARTS THE CARDS  HERE STARTS THE CARDS HERE STARTS THE CARDS HERE STARTS THE CARDS  -->
+      <div class="card-container" id="cardContainer">
+        <!--CAROUSEL 1 -->
+        <div class="card">
+          <div class="img-container">
+            <div class="carousel-container">
+              <div class="carousel-toggles">
+                <button id="forward-btn">
+                  <i class="fa-solid fa-circle-chevron-left"></i>
+                </button>
+                <button id="backward-btn">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
               </div>
+              <img src="img/candles/serene46 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/serene63 Medium.jpeg" alt="" class="" />
+              <img
+                src="img/candles/serene60 Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
+              <img src="img/candles/serene64 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/serene54 Medium.jpeg" alt="" class="" />
+              <img
+                src="img/candles/serene65 Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
             </div>
           </div>
-        </section>
 
-        <section class="contact">
-
-<footer>
-        <div class="boxes">
-          <div class="box">
-         <ul>
-          <li><a  class= "footerlink"  target="_parent" href="flowers.html">FLOWERS ARRANGEMENTS</a></li>
-
-          <li><a  class= "footerlink"  target="_parent" href="candles.html">CANDLES</a></li>
-
-          <li><a  class= "footerlink"  target="_parent" href="waxmelts.html">WAX MELTS </a></li>
-
-          <li><a  class= "footerlink"  target="_parent" href="waxmelts.html">ODORIZANTS</a></li>
-        
-
-        </ul>
-          </div>
-
-          <div class="box">
-             <ul>
-        
-
-          <li><a  class= "footerlink" target="_parent"  href="baby.html">BABY SHOWERS</a></li>
-
-          <li><a  class= "footerlink" target="_parent"  href="homedecor.html"> HOME DECOR </a></li>
-
-          <li><a  class= "footerlink" target="_parent"  href="kids.html">KIDS ITEMS</a></li>
-
-          <li><a  class= "footerlink"  target="_parent" href="limited.html">LIMITED EDITION</a></li>
-
-
-        </ul>
-          </div>
-
-
-
-          <div class="box">
-            <ul>
-          <li><a  class= "footerlink" target="_blank" href="contact.html">CONTACT</a></li>
-
-          <li><a  class= "footerlink" target="_blank" href="policies.html">POLICIES</a></li>
-
-          <li><a  class= "footerlink" target="_parent" href="index.html">HOME </a> </li>
-
-          <li><a  class= "footerlink"  target="_blank" href=" https://www.ebay.co.uk/sch/i.html?item=336532468854&rt=nc&_trksid=p4429486.m3561.l170197&_ssn=evening-20"> EBAY </a></li>
-
-          <li><a  class= "footerlink" href="#service-anchor">    </a></li>
-
-        </ul>
-          </div>
+          <a href="https://www.amazon.co.uk/dp/B0HBMGT2GB" target="_blank">
+            <h4>Serene</h4>
+            <div href="https://www.amazon.co.uk/dp/B0HBMGT2GB" class="purchase-button" target="_blank">Order now</div>
+            <p>
+              A true expression of understated elegance, this handcrafted soy
+              wax candle features a smooth, round silhouette in pure white,
+              beautifully accented by a delicate diagonal line of shimmering
+              white and blue. Its minimalist design evokes a sense of serenity
+              and sophistication, making it a timeless decorative piece that
+              brings a calming glow to any interior.
+            </p>
+          </a>
         </div>
 
+        <!--CAROUSEL 2 -->
+        <div class="card">
+          <div class="img-container">
+            <div class="carousel-container">
+              <div class="carousel-toggles">
+                <button id="forward-btn">
+                  <i class="fa-solid fa-circle-chevron-left"></i>
+                </button>
+                <button id="backward-btn">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
+              </div>
 
-        <hr />
-
-        <div class="boxes">
-
-          <div class="box">
-         <ul>
-          <li> <a  class= "footerlink" target="_blank"   href="https://www.facebook.com/?locale=en_GB" ><i class="fa-brands fa-facebook"></i>Evenings Candles</a></li>
-          <li> <a class= "footerlink"   target="_blank" href=" https://www.ebay.co.uk/sch/i.html?item=336532468854&rt=nc&_trksid=p4429486.m3561.l170197&_ssn=evening-20"><i class="fa-brands fa-ebay"></i>Evenings Candles</a></li>
-        </ul>
+              <img
+                src="img/candles/delicate786 Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
+              <img src="img/candles/delicate49 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/delicate78 Medium.jpeg" alt="" class="" />
+              <img
+                src="img/candles/delicate10 Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
+              <img src="img/candles/delicate9 Medium.jpeg" alt="" class="" />
+              <img
+                src="img/candles/delicate 8864 Medium.jpeg"
+                alt=""
+                class=""
+              />
+            </div>
           </div>
-
-         
-
-
-          <div class="box">
-             <ul>
-          <li> <a  class= "footerlink"  target="_blank"  href="https://www.tiktok.com/@evenings.candles?_r=1&_t=ZN-95VlJFnNQf8 " ><i class="fa-brands fa-tiktok"></i> Evenings Candles</a></li>
-          <li> <a class= "footerlink"   target="_blank" href=""  ><i class="fab fa-amazon"></i>Evenings Candles</a></li>
-             </ul>
-          </div>
-
-          
-            </ul>
-          </div>
+          <a href="https://www.amazon.co.uk/dp/B0H4BSB1DF?th=1" target="_blank">
+            <h4>Dream</h4>
+            <div href="https://www.amazon.co.uk/dp/B0H4BSB1DF?th=1" class="purchase-button" target="_blank">Order now</div>
+            <p>
+              A little dream in candle form. This handcrafted soy wax candle
+              rests in a white ceramic container with softly irregular edges,
+              decorated with a delicate floral arrangement finished with tiny
+              pearls. Elegant, feminine, and timeless, it is a beautiful accent
+              piece created to bring softness and charm to any interior.
+            </p>
+          </a>
         </div>
-        
 
-<p class="copyright" >@Copyright reverved Evenings Candles</p>
+        <!--CAROUSEL 3 -->
+        <div class="card">
+          <div class="img-container">
+            <div class="carousel-container">
+              <div class="carousel-toggles">
+                <button id="forward-btn">
+                  <i class="fa-solid fa-circle-chevron-left"></i>
+                </button>
+                <button id="backward-btn">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
+              </div>
+              <img src="img/candles/diam24 Medium.jpeg" alt="" class="onShow" />
+              <img src="img/candles/diam18 Medium.jpeg" alt="" class=" " />
+              <img src="img/candles/diam20 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/diam22 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/diam21 Medium.jpeg" alt="" class=" " />
+              <img src="img/candles/diam31 Medium.jpeg" alt="" class="" />
+            </div>
+          </div>
+          <a href="https://www.amazon.co.uk/dp/B0H9FNGYD3" target="_blank">
+            <h4>Petals</h4>
+            <div href="https://www.amazon.co.uk/dp/B0H9FNGYD3" class="purchase-button" target="_blank">Order now</div>
+            <p>
+              Petals is an elegant handcrafted soy wax candle featuring a round
+              ceramic container with delicate diamond-shaped accents and two
+              beautiful soy wax flowers with detailed petals. Stylish, refined,
+              and timeless, it is a graceful piece designed to bring beauty and
+              warmth to any space.
+            </p>
+          </a>
+        </div>
 
+        <!--CAROUSEL 4 -->
+        <div class="card">
+          <div class="img-container">
+            <div class="carousel-container">
+              <div class="carousel-toggles">
+                <button id="forward-btn">
+                  <i class="fa-solid fa-circle-chevron-left"></i>
+                </button>
+                <button id="backward-btn">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
+              </div>
+              <img
+                src="img/candles/roundglass10 Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
+              <img src="img/candles/roundglass6 Medium.jpeg" alt="" class="" />
+              <img
+                src="img/candles/roundglass8 2 Medium.jpeg"
+                alt=""
+                class=""
+              />
+              <img
+                src="img/candles/roundglass7 Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
+              <img src="img/candles/roundglass5 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/roundglass9 Medium.jpeg" alt="" class="" />
+            </div>
+          </div>
+          <a href="https://www.amazon.co.uk/dp/B0H9FTGN6S" target="_blank">
+            <h4>Crystal</h4>
+            <div href="https://www.amazon.co.uk/dp/B0H9FTGN6S" class="purchase-button" target="_blank">Order Now</div>
+            <p>
+              A delicate creation of light and sparkle, this handcrafted soy wax
+              candle is presented in a beautiful 6 cm round glass vessel,
+              inspired by the soft elegance of a crystal sphere. The blends
+              subtle shades of shimmering dark pink and pure white, creating a
+              captivating play of colour and glow. Finished with a delicate
+              floral decoration, this piece feels romantic, feminine, and
+              enchanting—a charming accent that adds warmth and elegance to any
+              interior.
+            </p>
+          </a>
+        </div>
 
-      </footer>
-        </section>
-      </main>
-    </div>
+        <!--CAROUSEL 5 -->
+        <div class="card">
+          <div class="img-container">
+            <div class="carousel-container">
+              <div class="carousel-toggles">
+                <button id="forward-btn">
+                  <i class="fa-solid fa-circle-chevron-left"></i>
+                </button>
+                <button id="backward-btn">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
+              </div>
+              <img src="img/candles/flower6 Medium.jpeg" alt="" class="onShow" />
+              <img src="img/candles/flower lid 1 Medium.jpeg " alt="" class="" />
+              <img src="img/candles/flowerlid2 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/flowerlid6 Medium.jpeg" alt="" class=" " />
+              <img src="img/candles/flower1 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/23 copy Medium.jpeg" alt="" class="" />
+            </div>
+          </div>
+          <a href=" ">
+            <h4>Daisy</h4>
+            <div href="" class="purchase-button">Order Now</div>
+            <p>
+              A beautifully handcrafted scented soy wax candle in an elegant
+              cylindrical ceramic container, finished with a delicate daisy
+              flower detail on the lid. Enhanced with a handmade soy wax
+              decoration, this charming piece combines fragrance, artistry, and
+              timeless elegance.
+            </p>
+          </a>
+        </div>
+        <!--CAROUSEL 6-->
+        <div class="card">
+          <div class="img-container">
+            <div class="carousel-container">
+              <div class="carousel-toggles">
+                <button id="forward-btn">
+                  <i class="fa-solid fa-circle-chevron-left"></i>
+                </button>
+                <button id="backward-btn">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
+              </div>
+              <img src="img/candles/tall29 copy Medium.jpeg" alt="" class="onShow" />
+              <img src="img/candles/tall2 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/tallMedium.jpeg" alt="" class="" />
+              <img
+                src="img/candles/tall10 Medium.jpeg Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
+              <img src="img/candles/tall13 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/tall8 Medium.jpeg" alt="" class="" />
+            </div>
+          </div>
+          <a href="https://www.amazon.co.uk/dp/B0H9G519NJ" target="_blank">
+            <h4>Elegance</h4>
+            <div href="https://www.amazon.co.uk/dp/B0H9G519NJ" class="purchase-button" target="_blank">Order Now</div>
+            <p>
+              Sometimes true elegance lies in simplicity. This handcrafted soy
+              wax candle is housed in a sleek cylindrical ceramic vessel,
+              designed with graceful proportions and a timeless appeal. Its
+              pure, minimalist form makes it a versatile decorative accent,
+              perfect for creating a peaceful and sophisticated atmosphere in
+              any space.
+            </p>
+          </a>
+        </div>
 
+        <!--CAROUSEL 7 -->
+        <div class="card">
+          <div class="img-container">
+            <div class="carousel-container">
+              <div class="carousel-toggles">
+                <button id="forward-btn">
+                  <i class="fa-solid fa-circle-chevron-left"></i>
+                </button>
+                <button id="backward-btn">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
+              </div>
+              <img
+                src="img/candles/mix3/3mixx16 Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
+              <img src="img/candles/mix3/3mix14 Medium.jpeg" alt="" class="onShow" />
+              <img src="img/candles/mix3/3mix7 Medium.jpeg" alt="" class="" />
+              <img
+                src="img/candles/mix3/3mix8 Medium.jpeg"
+                alt=""
+                class=" "
+              />
+              <img src="img/candles/mix3/3mixx26 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/mix3/3mix15 Medium.jpeg" alt="" class="" />
+            </div>
+          </div>
+          <a href="https://www.amazon.co.uk/dp/B0H9G23Z3M" target="_blank">
+            <h4>Bloom and Bow</h4>
+            <div href="https://www.amazon.co.uk/dp/B0H9G23Z3M" class="purchase-button" target="_blank">Order Now</div>
+            <p>
+              A charming set of two handcrafted scented soy wax candles,
+              beautifully presented in elegant ceramic vessels. One features a
+              delicate bow detail, while the other is finished with a
+              daisy-decorated lid. Both candles are adorned with handcrafted soy
+              wax flowers around the wick, creating a refined and romantic gift
+              set that brings beauty, warmth, and elegance to any home.
+            </p>
+          </a>
+        </div>
 
+        <!--CAROUSEL 8 -->
+        <div class="card">
+          <div class="img-container">
+            <div class="carousel-container">
+              <div class="carousel-toggles">
+                <button id="forward-btn">
+                  <i class="fa-solid fa-circle-chevron-left"></i>
+                </button>
+                <button id="backward-btn">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
+              </div>
+              <img
+                src="img/candles/mix1/mix15 Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
+              <img src="img/candles/mix1/mix2 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/mix1/mix10 Medium.jpeg" alt="" class="" />
+              <img
+                src="img/candles/mix1/mix22 Medium.jpeg"
+                alt=""
+                class=""
+              />
+              <img src="img/candles/mix1/mix7 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/mix1/mix3 Medium.jpeg" alt="" class="" />
+            </div>
+          </div>
+          <a href="https://www.amazon.co.uk/dp/B0H9H8B12Q" target="_blank">
+            <h4>Harmony</h4>
+            <div href="https://www.amazon.co.uk/dp/B0H9H8B12Q" class="purchase-button" target="_blank">Order Now</div>
+            <p>
+              This elegant set pairs a classic soy wax candle in a ceramic
+              container with a charming floral candle displayed on a round
+              ceramic tray. Handcrafted with care, it combines timeless design
+              with delicate details, making it a beautiful decorative piece for
+              any interior.
+            </p>
+          </a>
+        </div>
+
+        <!--CAROUSEL 9 -->
+
+        <div class="card">
+          <div class="img-container">
+            <div class="carousel-container">
+              <div class="carousel-toggles">
+                <button id="forward-btn">
+                  <i class="fa-solid fa-circle-chevron-left"></i>
+                </button>
+                <button id="backward-btn">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
+              </div>
+
+              <img
+                src="img/candles/brownbowl10 Medium.jpeg"
+                alt=""
+                class="onShow"
+              />
+              <img src="img/candles/brownbowl3 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/brownbowl3 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/brownbowl5 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/brownbowl8 Medium.jpeg" alt="" class="" />
+              <img src="img/candles/brownbowl9 Medium.jpeg" alt="" class="" />
+            </div>
+          </div>
+          <a href="https://www.amazon.co.uk/dp/B0H9H7BT3X" target="_blank">
+            <h4>Serenity</h4>
+            <div href="https://www.amazon.co.uk/dp/B0H9H7BT3X" class="purchase-button" target="_blank">Order Now</div>
+            <p>
+              A stunning handcrafted soy wax candle in a round bowl,
+              approximately 15 cm in diameter, featuring four wicks and delicate
+              floral decorations in warm beige, brown, and white tones. Paired
+              with a stylish marble-effect ceramic tray, this elegant set is
+              designed to bring warmth, beauty, and timeless style to any home.
+              Whether displayed as a statement décor piece or given as a
+              meaningful gift, it is a creation to be admired and treasured.
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <!--  <div class="special-button-wrapper">
+        <a href="" class="special-button">
+          Limited Edition <br />
+          And Offers
+
+          <i class="fa-solid fa-caret-right"></i>
+        </a>
+      </div>-->
+
+      <br />
+      <br />
+      <br />
+      <br />
+    </main>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.facebook.com/profile.php?id=100032590219367&locale=en_GB"
+          target="_blank"
+        >
+          <div class="icon-container">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          EveningCandle
+        </a>
+        <a href="https://www.ebay.co.uk/usr/evening-20" target="_blank">
+          <div class="icon-container">
+            <i class="fa-brands fa-ebay"></i>
+          </div>
+          EveningCandle
+        </a>
+        <a
+          href="https://www.tiktok.com/@evenings.candles?_r=1&_t=ZN-95VlJFnNQf8"
+          target="_blank"
+        >
+          <div class="icon-container">
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+          EveningCandle
+        </a>
+        <a
+          href="https://www.amazon.co.uk/s?me=A2ST13TV7186S8&marketplaceID=A1F83G8C2ARO7P"
+          target="_blank"
+        >
+          <div class="icon-container">
+            <i class="fa-brands fa-amazon"></i>
+          </div>
+          EveningCandle
+        </a>
+      </div>
+      <div class="copyright-message">@Copyright reserved EveningCandle</div>
+    </footer>
     <script
       src="https://kit.fontawesome.com/8004545972.js"
       crossorigin="anonymous"
     ></script>
-
     <script src="src/index.js"></script>
   </body>
 </html>
