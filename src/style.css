@@ -14,8 +14,8 @@
   --white: #ececec;
   --transparent-heavy-black: #161616c7;
   --minor-gray: #9e9b9b;
-  --soft-gray: rgb(164, 144, 128);
-  --altn-gray: rgb(110, 108, 108);
+  --soft-gray: rgb(169, 145, 121);
+  --altn-gray: rgb(86, 81, 81);
 }
 
 body {
@@ -220,7 +220,7 @@ main {
 }
 
 main h3 {
-  font-size: 65px;
+  font-size: 95px;
   font-weight: lighter;
   color: var(--altn-gray);
   position: relative;
@@ -235,7 +235,7 @@ main p {
   font-size: 20px;
 }
 
-h3::after {
+/*::after {
   content: "";
   position: absolute;
   bottom: -5px;
@@ -248,7 +248,7 @@ h3::after {
 
 h3.products::after {
   width: 15%;
-}
+}*/
 
 .card-container {
   padding: 65px 85px;
